@@ -1,0 +1,107 @@
+* {
+    font-family: sans-serif;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+   
+}
+
+.grid-item {
+    background-color: white;
+    padding: 1px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.grid-item3 {
+    background-color: white;
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 150px;
+    
+    
+}  
+
+#horizontal-list {
+    width: 1200px;
+    margin-left: 300px;
+    margin-top: 80px;
+    
+
+}
+
+
+#horizontal-list  {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: inline;  
+}
+
+.list1 {
+    position: relative;
+    padding-left: 550px;
+    float: left;
+}
+
+.list2 {
+    position: relative;
+    padding-left: 110px;
+    float: left;
+
+}
+
+.list3 {
+    position: relative;
+    padding-left: 100px;
+    float: left;
+
+}
+.list4 {
+    position: relative;
+    padding-left: 120px;
+    float: left;
+
+}
+
+input[type=number] {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 1px;
+    font-size: 25px;
+    position: relative;
+    right: 140px;
+}
+
+button {
+    border-radius: 1px;
+    background-color: rgb(228, 248, 255);
+    font-size: 25px;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    left: 10px;
+
+    }
+.fah {
+    border-radius: 1px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    margin-right : 300px;
+}
+
+
+
+    

@@ -12,8 +12,16 @@
                 <h1>Temperature Scale Convertor</h1>            
             </div>
             <div class="grid-item">
+                <p class="scale">Scale</p>
                 <p class="value">Value</p>
-                <label class="fah">Fahrenheit</label>
+                <label for="scale"></label>
+                <select id="temp">
+                    <option disabled selected value=""></option>
+                    <option label="Fahrenheit">Fahrenheit</option>
+                    <option label="Celsius">Celsius</option>
+                    <option label="Kelvin">Kelvin</option>
+                    <option label="Rankine">Rankine</option>
+                </select>
                 <input id="inputKG" type="number" placeholder="">
                 <button onclick="convertAll()">Calculate</button>
             </div>

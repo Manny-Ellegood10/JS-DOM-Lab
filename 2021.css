@@ -70,15 +70,15 @@
 }
 
 input[type=number] {
-    width: 200px;
+    width: 190px;
     height: 60px;
     text-align: center;
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 1px;
-    font-size: 25px;
+    font-size: 30px;
     position: relative;
-    right: 140px;
+    right: 285px;
 }
 
 button {
@@ -89,19 +89,38 @@ button {
     width: 150px;
     height: 60px;
     position: relative;
-    left: 10px;
+    right: 125px;
 
     }
-.fah {
-    border-radius: 1px;
-    font-size: 25px;
-    cursor: pointer;
-    width: 150px;
-    height: 60px;
-    position: relative;
-    margin-right : 300px;
+
+
+.scale {
+    float: left;
+    padding-left: 550px;
+    font-weight: bold;
+
 }
 
-
-
+.value {
+    padding-right: 700px;
+    font-weight: bold;
+}
     
+.temp {
+    border: 10px;
+    
+
+
+}
+
+select {
+    font-weight: bold;
+    float: left;
+    width: 170px;
+    height: 60px;
+    margin-left: 520px;
+    font-size: 27px;
+    text-align: center;
+
+
+}
